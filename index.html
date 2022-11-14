@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -37,16 +41,30 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <section>
-                <div class="hero"></div>
-            </section>
+
+        <section>
+            <div class="hero grid-x grid-padding-x">
+                <div class="row">
+                    <div class="large-12">
+                        <p>Currently studying to become a full stack developer. This will become my portfolio</p>
+                        <p>Graduated from The Ohio State University. Recieved a Bachelor of Science in Biology
+                            Pre-Medicine and Minored in Korean. After graduation, Covid hit and I ended up helping my
+                            mother out with her cafe business. However, due to the pandemic we had to shut that down and
+                            I went into pursue my career in Real Estate. Loved what I did but wanted a bit more
+                            structure to my life so here I am now pursuing Software Engineering</p>
+                    </div>
+                    <button class="button expanded grid-padding-x" id="myWork">See my work</button>
+                </div>
+
+            </div>
+        </section>
+        <main class="homepage">
             <div class="grid-x grid-padding-x">
-                <div class="large-3" data-sticky-container>
-                    <div class="columns large-3 medium-3 small-3 cell callout sticky" data-sticky id="sidebar">
+                <div class="large-3 medium-up-2" data-sticky-container>
+                    <div class="columns large-3 medium-up-3 cell callout sticky" data-sticky id="sidebar">
                         <div class="row">
                             <span class="">
-                                <img id="profilePicture" src="./assets/profilepic.JPG" alt="">
+                                <img class="profilePicture" src="./assets/profilepic.JPG" alt="">
                             </span>
                             <div class="description">
                                 <h3>Nara Kim</h3>
@@ -74,20 +92,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="column large-9 medium-9 small-9 cell">
-                    <div class="">
-                        <p>Currently studying to become a full stack developer. This will become my portfolio</p>
-                        <p>Graduated from The Ohio State University. Recieved a Bachelor of Science in Biology
-                            Pre-Medicine and Minored in Korean. After graduation, Covid hit and I ended up helping my
-                            mother out with her cafe business. However, due to the pandemic we had to shut that down and
-                            I went into pursue my career in Real Estate. Loved what I did but wanted a bit more
-                            structure to my life so here I am now pursuing Software Engineering</p>
-                    </div>
+                <div class="column large-9 cell">
                     <div class="grid-x">
                         <div class="large-12 cell">
                             <div class="image-hover-wrapper">
                                 <span class="image-hover-wrapper-banner">ISS Tracker</span>
-                                <a href="https://teamjustalright.github.io/iss-tracker/"><img
+                                <a href="https://teamjustalright.github.io/iss-tracker/" target="_blank"><img
                                         src="./assets/iss-tracker.png">
                                     <span class="image-hover-wrapper-reveal">
                                         <p><strong>Check it out!</strong><br><i class="fa fa-link"
@@ -95,20 +105,32 @@
                                     </span>
                                 </a>
                             </div>
-                            <div class="large-12 cell">
-                                <div class="image-hover-wrapper">
-                                    <span class="image-hover-wrapper-banner">ISS Tracker</span>
-                                    <a href="https://teamjustalright.github.io/iss-tracker/"><img
-                                            src="./assets/iss-tracker.png">
-                                        <span class="image-hover-wrapper-reveal">
-                                            <p><strong>Check it out!</strong><br><i class="fa fa-link"
-                                                    aria-hidden="true"></i></p>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
+                    <div class="grid-x grid-padding-x">
+                        <div class="image-hover-wrapper large-6 medium-up-4 cell">
+                            <span class="image-hover-wrapper-banner">ISS Tracker</span>
+                            <a href="https://teamjustalright.github.io/iss-tracker/" target="_blank"><img
+                                    src="./assets/iss-tracker.png">
+                                <span class="image-hover-wrapper-reveal">
+                                    <p><strong>Check it out!</strong><br><i class="fa fa-link" aria-hidden="true"></i>
+                                    </p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="image-hover-wrapper large-6 medium-up-4 cell">
+                            <span class="image-hover-wrapper-banner">ISS Tracker</span>
+                            <a href="https://teamjustalright.github.io/iss-tracker/" target="_blank"><img
+                                    src="./assets/iss-tracker.png">
+                                <span class="image-hover-wrapper-reveal">
+                                    <p><strong>Check it out!</strong><br><i class="fa fa-link" aria-hidden="true"></i>
+                                    </p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
     </div>
